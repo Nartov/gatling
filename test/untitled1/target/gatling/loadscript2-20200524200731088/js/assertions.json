@@ -1,0 +1,18 @@
+{
+  "simulation": "load.LoadScript2",
+  "simulationId": "loadscript2",
+  "start": 1590350851088,
+  "description": "",
+  "scenarios": ["Users", "Admins"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "95th percentile of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [1000.0],
+  "result": true,
+  "message": "Global: 95th percentile of response time is less than or equal to 1000.0",
+  "actualValue": [101.0]
+}
+  ]
+}
